@@ -29,7 +29,7 @@ const TutorAILanding = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
         >
-          TutorAI
+          Tubonge
         </motion.h1>
         <motion.div
           className="flex gap-4"
@@ -58,7 +58,7 @@ const TutorAILanding = () => {
           variants={fadeIn}
         >
           Learn Smarter with{" "}
-          <span className="text-green-600">TutorAI</span>
+          <span className="text-green-600">Tubonge</span>
         </motion.h2>
         <motion.p
           className="mt-6 text-lg sm:text-xl text-gray-600"
@@ -151,7 +151,7 @@ const TutorAILanding = () => {
 
       {/* Footer */}
       <footer className="py-8 text-sm text-gray-500 text-center">
-        <p>© {new Date().getFullYear()} TutorAI. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Tubonge All rights reserved.</p>
       </footer>
     </div>
   );
